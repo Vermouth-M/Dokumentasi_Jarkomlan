@@ -16,7 +16,6 @@ Dokumentasi praktik menghubungkan dua Virtual Machine Ubuntu di VMware Workstati
 - [Langkah Kerja](#langkah-kerja)
 - [Hasil Pengujian](#hasil-pengujian)
 - [Troubleshooting](#troubleshooting)
-- [Kesimpulan](#kesimpulan)
 
 ## 👥 Anggota Kelompok
 
@@ -127,7 +126,3 @@ Koneksi berhasil jika muncul balasan (*reply*) dari kedua arah tanpa *packet los
 | `systemd-networkd is not running` | Ubuntu Desktop pakai NetworkManager, tapi `renderer` di netplan diset `networkd` | Ubah `renderer: NetworkManager` |
 | `Name or service not known` saat ping | Perintah ping ikut menyertakan `/64` | Hilangkan prefix, ping cukup alamatnya saja |
 | Ping gagal total | Mode Network Adapter beda antar VM, firewall aktif, atau IPv6 dinonaktifkan | Samakan mode adapter, cek `ufw status`, cek `sysctl net.ipv6.conf.all.disable_ipv6` |
-
-## ✅ Kesimpulan
-
-_(isi kesimpulan kelompok di sini — misalnya: apakah ping berhasil, kendala yang ditemui, dan pelajaran yang didapat dari praktik ini)_
