@@ -20,7 +20,7 @@ Dokumentasi praktik menghubungkan dua Virtual Machine Ubuntu di VMware Workstati
 
 ## 👥 Anggota Kelompok
 
-**Kelompok:** _(isi nama kelompok di sini)_
+**Kelompok: 4** 
 
 | No | Nama | NIM / Kelas |
 |----|------|-------------|
