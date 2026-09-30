@@ -109,7 +109,7 @@ Koneksi berhasil jika muncul balasan (*reply*) dari kedua arah tanpa *packet los
 
 **Konfigurasi IPv6 di VM2**
 
-![Konfigurasi IPv6 VM2](images/konfigurasi-ipv6-vm2.png)
+![Konfigurasi IPv6 VM2](images/image.png)
 
 **Hasil Ping dari VM1 ke VM2**
 
